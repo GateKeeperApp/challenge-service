@@ -7,7 +7,7 @@ Directions for the challenge from local machine:
 
 2) The response body will contain an id and a list of integers.
 
-3) Make a POST call on http://localhost:8081/{id}
+3) Make a POST call on http://localhost:8081/challenge/{id}
    - where the id is the id in the response body from step 1
    - the body needs to have the following structure:
         >> {
